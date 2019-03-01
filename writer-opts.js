@@ -6,7 +6,7 @@ const readFile = Q.denodeify(require(`fs`).readFile)
 const { resolve } = require(`path`)
 const execa = require('execa')
 
-const packageRe = /(packages\/@vue\/([a-z0-9-]+))|(docs)\//i
+const packageRe = /(packages\/@nodepack\/([a-z0-9-]+))|(docs)\//i
 
 module.exports = Q.all([
   readFile(resolve(__dirname, `./templates/template.hbs`), `utf-8`),

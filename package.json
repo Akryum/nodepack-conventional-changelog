@@ -1,7 +1,7 @@
 {
-  "name": "@vue/conventional-changelog",
-  "version": "0.1.1",
-  "description": "conventional-changelog vue preset",
+  "name": "@nodepack/conventional-changelog",
+  "version": "0.1.0",
+  "description": "conventional-changelog nodepack preset",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix .",
@@ -11,7 +11,7 @@
   },
   "keywords": [
     "conventional-changelog",
-    "vue",
+    "nodepack",
     "preset"
   ],
   "files": [
@@ -49,12 +49,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/conventional-changelog.git"
+    "url": "git+https://github.com/Akryum/nodepack-conventional-changelog.git"
   },
   "bugs": {
-    "url": "https://github.com/vuejs/conventional-changelog/issues"
+    "url": "https://github.com/Akryum/nodepack-conventional-changelog/issues"
   },
-  "homepage": "https://github.com/vuejs/conventional-changelog#readme",
+  "homepage": "https://github.com/Akryum/nodepack-conventional-changelog#readme",
   "publishConfig": {
     "access": "public"
   }

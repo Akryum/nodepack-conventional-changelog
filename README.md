@@ -1,9 +1,9 @@
-# @vue/conventional-changelog
+# @nodepack/conventional-changelog
 
-Custom preset for [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/) which groups changes by package (`packages/@vue/xxx`). It works by getting the package which has the highest number of changed files in each commit.
+Custom preset for [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/) which groups changes by package (`packages/@nodepack/xxx`). It works by getting the package which has the highest number of changed files in each commit.
 
 ```bash
-yarn add -D @vue/conventional-changelog
+yarn add -D @nodepack/conventional-changelog
 ```
 
 Example usage:
@@ -11,7 +11,7 @@ Example usage:
 ```js
 const execa = require('execa')
 const cc = require('conventional-changelog')
-const config = require('@vue/conventional-changelog')
+const config = require('@nodepack/conventional-changelog')
 
 const gen = module.exports = version => {
   const fileStream = require('fs').createWriteStream(`CHANGELOG.md`)
